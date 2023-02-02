@@ -1,0 +1,74 @@
+body{
+    padding: 0;
+    margin: 0;
+    max-height: 100vh;
+    /* max-width: 100%; */
+    /* box-sizing: border-box; */
+}
+
+.container{
+    padding: 10px;
+}
+
+.plugin-image{
+    cursor: pointer;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* google icon */
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}
+
+.lightbox{
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.763);
+}
+
+.lightbox img{
+    margin-top: 13vh;
+    width: 650px;
+
+}
+
+.lightbox #close{
+    position: absolute;
+    top: 60px;
+    right: 60px;
+    background: white;
+    border-radius: 50px;
+    cursor: pointer;
+    font-size: 40px;
+}
+
+.lightbox #left-arrow{
+    position: absolute;
+    margin-top: 50vh;
+    left: 100px;
+    background: white;
+    border-radius: 50px;
+    cursor: pointer;
+    font-size: 40px;
+}
+
+.lightbox #right-arrow{
+    position: absolute;
+    margin-top: 50vh;
+    right: 100px;
+    background: white;
+    border-radius: 50px;
+    cursor: pointer;
+    font-size: 40px;
+}
